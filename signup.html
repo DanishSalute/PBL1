@@ -17,7 +17,7 @@
     <br>
     <fieldset>
         <legend>User's Information</legend>
-        <form action="homepage.html" method="get">
+        <form action="login.html" method="get">
             <table width="100%">
                 <tr height="50px" >
                     <td><label for="name">Name</label></td>
@@ -38,23 +38,23 @@
         
     </fieldset>
     <br>
-    <table align="center" width="20%">
+    <table align="center" width="22%">
         <tr height="30px">
             <td><label for="username">Username</label></td>
-            <td ><input type="text" name="username" placeholder="johndoe" size="30" required></td>
+            <td align="right"><input type="text" name="username" placeholder="johndoe" size="30" required></td>
         </tr>
         <tr height="30px">
             <td><label for="password">Password</label></td>
-            <td><input type="password" name="password" placeholder="password" size="30" required></td>
+            <td align="right"><input type="password" name="password" placeholder="password" size="30" required></td>
         </tr>
         <tr height="50px">
             <td></td>
-            <td align="right"><input type="submit" value="Sign Up"></td>
+            <td><label for="term">Do you agree to the <a href="term.html">terms and conditions</a></label><input type="checkbox" name="term" id="" required></td>
         </tr>
     </table>
-    <table align="center">
-        <tr>
-            <td><label for="term">Do you agree to the <a href="term.html">terms and conditions</a></label><input type="checkbox" name="term" id="" required></td>
+    <table align="center" width="20%">
+        <tr height="30px">
+            <td align="right"><input type="submit" value="Sign Up"></td>
         </tr>
     </table>
     </form>
